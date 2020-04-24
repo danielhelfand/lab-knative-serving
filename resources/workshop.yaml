@@ -1,20 +1,21 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: lab-knative-fundamentals
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
+  title: Knative Fundamentals
+  description: Workshop on learning the fundamentals of using Knative
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
-  #image: quay.io/eduk8s/lab-markdown-sample:master
+  url: https://github.com/danielhelfand/lab_knative_fundamentals
+  image: danielhelfand/lab_knative_fundamentals:latest
   content: github.com/eduk8s/lab-markdown-sample
   session:
     budget: small
     applications:
       console:
         enabled: true
-      editor:
+      terminal:
         enabled: true
+        layout: split

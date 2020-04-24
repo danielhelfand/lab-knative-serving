@@ -1,4 +1,4 @@
-LAB - Markdown Sample
-=====================
+LAB - Knative Fundamentals
+==========================
 
-Sample workshop content using Markdown formatting for pages.
+This workshop is a work in progress. It aims to teach the Fundamentals of using [Knative](https://knative.dev/).
