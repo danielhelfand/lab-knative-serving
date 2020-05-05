@@ -2,7 +2,11 @@ name: Knative Fundamentals
 
 modules:
     activate:
+    - concepts-overview
     - workshop-overview
-    - setup-environment
-    - exercises/01-sample-content
+    - exercises/knative-serving-crds
+    - exercises/serving-crds-breakdown
+    - exercises/knative-service
+    - exercises/review-service-creation
+    - exercises/use-service
     - workshop-summary

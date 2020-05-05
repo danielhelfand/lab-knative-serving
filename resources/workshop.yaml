@@ -1,18 +1,17 @@
-apiVersion: training.eduk8s.io/v1alpha1
+apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-knative-fundamentals
+  name: deploy-your-first-application-using-knative
 spec:
-  title: Knative Fundamentals
-  description: Workshop on learning the fundamentals of using Knative
+  title: Deploy Your First Application Using Knative
+  description: Workshop on learning the fundamentals of using Knative Serving
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
   url: https://github.com/danielhelfand/lab_knative_fundamentals
-  image: danielhelfand/lab_knative_fundamentals:latest
-  content: github.com/eduk8s/lab-markdown-sample
+  content:
+    image: danielhelfand/lab_knative_fundamentals:latest
   session:
-    budget: small
     applications:
       console:
         enabled: true
