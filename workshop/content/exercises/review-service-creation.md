@@ -35,7 +35,7 @@ kn route list
 The command output will show the same `URL` as the `Service` has. 
 
 Under the `URL` property of the output from `kn service describe`, you will see a `Revisions` 
-property that shows all the `Revisions` this `Service` has. Since this `Service` has never been 
+property that shows all the `Revisions` this `Service` uses. Since this `Service` has never been 
 updated because it was just created, it only has one `Revision`. 
 
 You can confirm that only one `Revision` exists by running the following command:

@@ -19,6 +19,12 @@ modules:
         exit_sign: Use Knative Service
     exercises/use-service:
         name: Use Knative Service
+        exit_sign: Update Knative Service
+    exercises/update-service:
+        name: Update Knative Service
+        exit_sign: Use Multiple Revisions
+    exercises/use-multiple-revisions:
+        name: Use Multiple Revisions
         exit_sign: Workshop Summary
     workshop-summary:
         name: Workshop Summary

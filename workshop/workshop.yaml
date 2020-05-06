@@ -9,4 +9,6 @@ modules:
     - exercises/knative-service
     - exercises/review-service-creation
     - exercises/use-service
+    - exercises/update-service
+    - exercises/use-multiple-revisions
     - workshop-summary
