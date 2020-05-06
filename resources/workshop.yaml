@@ -13,8 +13,6 @@ spec:
     image: danielhelfand/lab_knative_fundamentals:latest
   session:
     applications:
-      console:
-        enabled: true
       terminal:
         enabled: true
         layout: split
