@@ -3,14 +3,14 @@ kind: Workshop
 metadata:
   name: deploy-your-first-application-using-knative-serving
 spec:
-  title: Deploy Your First Application Using Knative
+  title: Deploy Your First Application Using Knative Serving
   description: Workshop on learning the fundamentals of using Knative Serving
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
   url: https://github.com/danielhelfand/lab-knative-serving
   content:
-    image: danielhelfand/lab_knative_fundamentals:latest
+    image: danielhelfand/lab-knative-serving:master
   session:
     applications:
       terminal:
