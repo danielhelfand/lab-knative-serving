@@ -2,10 +2,10 @@ In the previous section, you created a Knative `Service`. Run the following
 command to verify the `Service` is available:
 
 ```execute-1
-kn service describe helloworld-go
+watch kn service describe helloworld-go
 ```
 
-You should see output similar to the following:
+You should eventually see output similar to the following:
 
 ```
 Name:       helloworld-go
@@ -65,6 +65,12 @@ most recent and available to handle requests.
 
 In the next section, you will send requests to `helloworld-go` to see some of the features of Knative `Serving` in 
 action. 
+
+Stop the watch on the `Service` in your first terminal:
+
+```execute-1
+<ctrl+c>
+```
 
 Clear your terminals:
 

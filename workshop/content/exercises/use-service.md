@@ -6,7 +6,11 @@ command to see that no Pods are currently running in your namespace:
 watch kubectl get pods
 ```
 
-You will see a `No resources found` message confirming nothing is running. Now go ahead 
+Upon creating your `Service`, a Pod hosting the container associated with your `Service` 
+will be started up. If you see any Pods running as part of the output of the above command, 
+wait for those Pods to stop running. 
+
+Once you see a `No resources found` message confirming nothing is running, go ahead 
 and make a request to the `helloworld-go` `Service` using the following `curl` command to 
 ping the `Service`:
 
@@ -31,7 +35,9 @@ Knative `Serving` is able to scale up Pods based on how much traffic is coming t
 it also scales down the number of Pods when there is less incoming traffic. 
 
 Keep watching the top terminal until you see the `No resources found` message again. This confirms that 
-your `Service` has scaled down the amount of Pods needed due to a lack of incoming traffic.
+your `Service` has scaled down the amount of Pods needed due to a lack of incoming traffic. After about a 
+minute, the Pod will start terminating as indicated by its `STATUS` column and then no Pods will be available 
+once again.
 
 In the next section, you will make an update your `Service` to learn more about how `Revisions` work. 
 
