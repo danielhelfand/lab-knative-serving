@@ -13,7 +13,7 @@ modules:
         exit_sign: Knative Service
     exercises/knative-service:
         name: Knative Service
-        exit_sign: Workshop Summary
+        exit_sign: Review Service Creation
     exercises/review-service-creation:
         name: Review Service Creation
         exit_sign: Use Knative Service
