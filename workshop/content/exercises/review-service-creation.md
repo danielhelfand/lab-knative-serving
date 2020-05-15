@@ -5,7 +5,8 @@ command to verify the `Service` is available:
 watch kn service describe helloworld-go
 ```
 
-You should eventually see output similar to the following:
+You will eventually see output similar to the following once your `Service` becomes 
+available:
 
 ```
 Name:       helloworld-go
@@ -24,7 +25,7 @@ Conditions:
   ++ RoutesReady            19m
 ```
 
-The output above shows that this `Service` was created with a `Route`, which is the 
+The output above shows that a `Service` is created with a `Route`, which is the 
 value of the `URL` property. You can confirm this `Route` was created with your `Service` 
 by running the following command:
 
@@ -32,7 +33,7 @@ by running the following command:
 kn route list
 ```
 
-The command output will show the same `URL` as the `Service` has. 
+The command output will show the same `URL` as the `Service` will have. 
 
 Under the `URL` property of the output from `kn service describe`, you will see a `Revisions` 
 property that shows all the `Revisions` this `Service` uses. Since this `Service` has never been 
@@ -66,7 +67,7 @@ most recent and available to handle requests.
 In the next section, you will send requests to `helloworld-go` to see some of the features of Knative `Serving` in 
 action. 
 
-Stop the watch on the `Service` in your first terminal:
+Stop the watch on the `Service` in your first terminal once you have gotten a chance to see the output from `kn service describe`:
 
 ```execute-1
 <ctrl+c>

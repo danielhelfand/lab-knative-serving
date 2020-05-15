@@ -1,4 +1,4 @@
-Now that you have used your Knative `Service`. let's see what happens with 
+Now that you have used your Knative `Service`, let's see what happens with 
 `Revisions` when an update is made the `Service`.
 
 The update will change the `TARGET` environment variable that is used by the 

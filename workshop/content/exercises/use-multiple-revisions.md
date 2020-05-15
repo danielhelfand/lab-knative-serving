@@ -2,7 +2,7 @@ You have now created a Knative `Service` that has multiple `Revisions`. One exam
 to make use of multiple `Revisions` is to split how requests are routed to each `Revision`. 
 
 If you remember from the previous section, the `TRAFFIC` property for the latest `Revision` is 
-currently set to `100%`, meaning the only response for your `Service` will be `Hello Go Sample v2!`. 
+currently set to `100%`, meaning the only response from your `Service` will be `Hello Go Sample v2!`. 
 
 To split the incoming requests to your `Service` between both of its `Revisions`, run the following 
 command to grab the name of the first `Revision` for `helloworld-go`:

@@ -8,7 +8,7 @@ watch kubectl get pods
 
 Upon creating your `Service`, a Pod hosting the container associated with your `Service` 
 will be started up. If you see any Pods running as part of the output of the above command, 
-wait for those Pods to stop running. 
+wait for those Pods to stop running before running any more commands. 
 
 Once you see a `No resources found` message confirming nothing is running, go ahead 
 and make a request to the `helloworld-go` `Service` using the following `curl` command to 
@@ -41,7 +41,7 @@ once again.
 
 In the next section, you will make an update your `Service` to learn more about how `Revisions` work. 
 
-Stop the watch on the Pods in your first terminal:
+Stop the watch on the Pods in your first terminal once none are running anymore:
 
 ```execute-1
 <ctrl+c>
