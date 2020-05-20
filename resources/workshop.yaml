@@ -1,7 +1,7 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: deploy-your-first-application-using-knative-serving
+  name: knative-serving
 spec:
   title: Deploy Your First Application Using Knative Serving
   description: Workshop on learning the fundamentals of using Knative Serving

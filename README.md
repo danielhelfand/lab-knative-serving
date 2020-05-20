@@ -26,7 +26,7 @@ kubectl apply --filename https://github.com/knative/serving/releases/download/v0
 glooctl install knative --install-knative=false
 ```
 
-Installating the workshop can be done using the following command:
+Installing the workshop can be done using the following command:
 
 ```
 kubectl apply -k https://github.com/danielhelfand/lab-knative-serving

@@ -1,9 +1,9 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: deploy-your-first-application-using-knative-serving
+  name: knative-serving
 spec:
   portal:
     capacity: 1
   workshops:
-  - name: deploy-your-first-application-using-knative-serving
+  - name: knative-serving
