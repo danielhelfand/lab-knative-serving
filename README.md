@@ -35,8 +35,11 @@ kubectl apply -k https://github.com/danielhelfand/lab-knative-serving
 You can access the `trainingportal` to start up this workshop by running:
 
 ```
-kubectl get trainingportals deploy-your-first-application-using-knative-serving
+kubectl get trainingportal knative-serving
 ```
+
+Using the `URL` property from the output of the above command, you can access the workshop from a browser, which will guide you 
+through the process to begin the workshop.
 
 Installation on Minikube
 ========================
